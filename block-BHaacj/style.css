@@ -1,0 +1,598 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(206, 199, 199);
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------------------------header------------------------ */
+
+.main-div-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 850px;
+    margin: 0 auto;
+}
+.journey
+{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+.header-div-b a
+{
+    text-decoration: none;
+    color: black;
+    margin: 00 15px;
+    font-weight: 600;
+
+}
+.header-div-a img
+{
+    height: 50px;
+    width: 50px;
+}
+.header-div-a
+{
+    display: flex;
+    align-items: center;
+}
+.header
+{background-color: white;
+}
+
+/* ----------------------------section-1--------------------------- */
+.container
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+.juorney-details
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    margin-top: 80px;
+    background-color: white;
+    text-align: left;
+}
+.J-part1-b
+{
+    display: flex;
+    justify-content: space-between;
+}
+.J-part2-a
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.J-part1,.J-part2
+{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.legend-1
+{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.J-part1-b,.J-part2-b
+{
+    margin-top: 20px;
+}
+.input-1
+{
+    width: 100%;
+    padding: 6px 6px;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 3px;
+}
+.button-1
+{
+    background-color: rgb(20, 129, 133);
+    padding: 8px 00;
+    border-radius: 3px;
+    color: white;
+    border: 0;
+    font-weight: 400;
+}
+.h1
+{
+font-size: 35px;
+font-weight: 400;
+color: white;
+
+}
+.dot 
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot1
+{
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.dot2
+{
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+
+}
+.h2
+{
+    font-size: 16px;
+    font-weight: 200;
+    color: white;  
+}
+.main-div-section1
+{
+        padding: 70px 00;
+        text-align: center;
+        background-image: linear-gradient(rgb(7, 6, 6, 0.7),rgb(7, 6, 6, 0.7)), url("assets/banner.jpg");
+}
+
+.down-arrow
+{
+    background-color: rgb(20, 129, 133);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.down-arrow a
+{
+    text-decoration: none;
+    color: white;
+}
+/* ----------------------------section-2----------------------------- */
+
+.main-div-section-2
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    padding: 70px 00;
+    text-align: center;
+    align-items: center;
+}
+.h3
+{
+    font-size: 23px;
+    color: black;
+    font-weight: 400;
+}
+.p3
+{
+    font-size: 14px;
+    color:black;
+    width: 700px;
+
+}
+.explore-1
+{
+    background-color:rgb(20, 129, 133);
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+}
+.h5
+{
+    color: white;
+}
+.explore-1 a
+{
+    text-decoration: none;
+}
+
+/* -------------------------section-3-------------------------------- */
+
+.main-div-section-3
+{
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+.section-3-part-1
+{
+    background:url("assets/tm-img-01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.section-3-part-1-a
+{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 20px;
+    top:48%;
+}
+.div-m
+{
+    width: 48%;
+    background-color: rgb(2, 1, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-m-a
+{
+    border-radius: 50%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-m-a a
+{
+    text-decoration: none;
+    color: black;
+}
+.section-3-part-1,.section-3-part-2
+{
+    width: 50%;
+}
+.section-3-part-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+.section-3-part-2-a
+{
+    background-color: rgb(20, 129, 133);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+   
+
+}
+.h6
+{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+
+}
+.p6
+{
+    font-size: 13px;
+    color: white;
+    font-weight: 200;
+    
+}
+.section-3-part-2-a-a
+{
+    background-color: white;
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+}
+.section-3-part-2-a-a a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color:rgb(20, 129, 133);
+    font-weight: 400;
+}
+.section-3-part-1-new
+{
+
+    background:url("assets/tm-img-02.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.section-3-part-1-a-new
+{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 20px;
+    top:48%;
+}
+.section-3-part-2-a-new
+{
+    background-color: rgb(211, 102, 120);
+}
+.section-3-part-2-a-a-new a
+{
+    color:rgb(211, 102, 120) ;
+}
+.section-3-part-1-new-1
+{
+    background:url("assets/tm-img-03.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* -------------------section-4-------------------- */
+
+.main-div-section-4
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 129, 133);
+}
+.map
+{
+    background-color:rgb(20, 129, 133);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 130px;
+    justify-content: space-around;
+    width: 126px;
+}
+.map img
+{
+    width: 100%;
+}
+.h-map
+{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.main-div-section-4 a
+{
+    text-decoration: none;
+    }
+
+/* -----------------------SECTION-5--------------------------- */
+
+
+.section-5-a
+{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 155px;
+    background-color: white;
+    margin-top: 25px;
+
+}
+.section-5-a-1
+{
+width: 28%;
+}
+.section-5-a-1 img
+{
+width: 100%;
+height: 155px;
+}
+.section-5-a-3 img
+{
+    height: 155px;
+    width: 100%;
+}
+
+.section-5-a-2
+{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-inline-end: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.section-5-a-3
+{
+    width: 23.5px;
+    background-color: rgb(20, 129, 133);
+}
+.section-5-a-4
+{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(20, 129, 133) ;
+    align-items: center;
+}
+.h-8
+{
+font-size: 14px;
+color: black;
+font-weight: 600;
+}
+.h-8-a
+{
+    font-size: 13px;
+    color: rgb(255, 11, 11);
+    font-weight: 600;
+}
+.p-8
+{
+    font-size: 13px;
+    color: rgb(10, 9, 9);
+    font-weight: 200;
+    margin-top: 10px;
+}
+.h-10
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.section-5-a-4 a
+{
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.main-div-section-5
+{
+    padding: 50px 00;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.explore-1-new
+{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main-div-section-6
+{
+    height: auto;
+    position: relative;
+    background-color: white;
+    padding: 70px 00;
+
+
+}
+.section-6
+{
+    
+}
+.footer-form
+{
+    height: 290px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(235, 231, 231);
+    border-radius: 3px;
+    position: absolute;
+    right: 40px;
+    bottom: 110px;
+
+}
+.footer-form-1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-form-2, .footer-form-3, .footer-form-4
+{
+    display: flex;
+
+}
+.input-5
+{
+    width: 100%;
+    border: 0;
+    padding: 5px 5px;
+    border-radius: 3px;
+    background-color: rgb(211, 204, 204);
+    border: 1px solid rgb(209, 206, 206);
+}
+.input-4
+{
+    width: 46%;
+}
+.footer-form-4
+{
+    background-color:rgb(20, 129, 133);
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-form-4 a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.footer-div-1
+{
+    background-color:rgb(20, 129, 133) ;
+    padding: 30px 00;
+    text-align: center;
+
+}
+.h10{
+    font-size: 15px;
+    color: white;
+}
