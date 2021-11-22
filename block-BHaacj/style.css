@@ -32,7 +32,6 @@ body {
 	line-height: 1.5;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(206, 199, 199);
-
 }
 ol, ul {
 	list-style: none;
@@ -50,7 +49,6 @@ table {
 	border-spacing: 0;
 }
 /* --------------------------header------------------------ */
-
 .main-div-header{
     display: flex;
     justify-content: space-between;
@@ -71,7 +69,6 @@ table {
     color: black;
     margin: 00 15px;
     font-weight: 600;
-
 }
 .header-div-a img
 {
@@ -85,6 +82,10 @@ table {
 }
 .header
 {background-color: white;
+}
+.header-div-b a:hover
+{
+    color: rgb(224, 31, 160);
 }
 
 /* ----------------------------section-1--------------------------- */
@@ -114,7 +115,6 @@ table {
 {
     display: flex;
     justify-content: space-between;
-
 }
 .J-part1,.J-part2
 {
@@ -167,7 +167,6 @@ color: white;
     justify-content: center;
     align-items: center;
 }
-
 .dot1
 {
     height: 3px;
@@ -183,7 +182,6 @@ color: white;
     background-color: white;
     border-radius: 50%;
     margin-bottom: 5px;
-
 }
 .h2
 {
@@ -197,7 +195,6 @@ color: white;
         text-align: center;
         background-image: linear-gradient(rgb(7, 6, 6, 0.7),rgb(7, 6, 6, 0.7)), url("assets/banner.jpg");
 }
-
 .down-arrow
 {
     background-color: rgb(20, 129, 133);
@@ -215,7 +212,6 @@ color: white;
     color: white;
 }
 /* ----------------------------section-2----------------------------- */
-
 .main-div-section-2
 {
     background-color: rgb(255, 255, 255);
@@ -233,12 +229,16 @@ color: white;
     color: black;
     font-weight: 400;
 }
+.h3 strong
+{
+    font-weight: 600;
+    font-size: 24px;
+}
 .p3
 {
     font-size: 14px;
     color:black;
     width: 700px;
-
 }
 .explore-1
 {
@@ -255,7 +255,6 @@ color: white;
 {
     text-decoration: none;
 }
-
 /* -------------------------section-3-------------------------------- */
 
 .main-div-section-3
@@ -270,7 +269,6 @@ color: white;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
-
 }
 .section-3-part-1-a
 {
@@ -279,7 +277,7 @@ color: white;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    right: 20px;
+    right: 40px;
     top:48%;
 }
 .div-m
@@ -305,6 +303,7 @@ color: white;
 {
     text-decoration: none;
     color: black;
+    font-size: 10px;
 }
 .section-3-part-1,.section-3-part-2
 {
@@ -326,23 +325,24 @@ color: white;
     flex-direction: column;
     justify-content: space-between;
     height: 50%;
-   
-
+    }
+.overlap-left
+{
+    position: relative;
+    left: -40px;
 }
 .h6
 {
     font-size: 20px;
     color: white;
     font-weight: 400;
-
 }
 .p6
 {
     font-size: 13px;
     color: white;
     font-weight: 200;
-    
-}
+    }
 .section-3-part-2-a-a
 {
     background-color: white;
@@ -359,7 +359,6 @@ color: white;
 }
 .section-3-part-1-new
 {
-
     background:url("assets/tm-img-02.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -371,13 +370,16 @@ color: white;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    left: 20px;
+    left: 40px;
     top:48%;
 }
 .section-3-part-2-a-new
 {
     background-color: rgb(211, 102, 120);
-}
+    position: relative;
+    right: -40px;
+    z-index: 1;
+   }
 .section-3-part-2-a-a-new a
 {
     color:rgb(211, 102, 120) ;
@@ -407,9 +409,17 @@ color: white;
     justify-content: space-around;
     width: 126px;
 }
+.map:hover
+{
+    background-color: rgb(211, 102, 120);
+}
 .map img
 {
     width: 100%;
+}
+.map-2
+{
+    background-color: rgb(211, 102, 120);
 }
 .h-map
 {
@@ -420,10 +430,7 @@ color: white;
 {
     text-decoration: none;
     }
-
 /* -----------------------SECTION-5--------------------------- */
-
-
 .section-5-a
 {
     display: flex;
@@ -433,7 +440,6 @@ color: white;
     height: 155px;
     background-color: white;
     margin-top: 25px;
-
 }
 .section-5-a-1
 {
@@ -449,7 +455,6 @@ height: 155px;
     height: 155px;
     width: 100%;
 }
-
 .section-5-a-2
 {
     width: 42%;
@@ -526,12 +531,15 @@ font-weight: 600;
     position: relative;
     background-color: white;
     padding: 70px 00;
-
-
 }
-.section-6
+.overlay
 {
-    
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
 }
 .footer-form
 {
@@ -546,7 +554,6 @@ font-weight: 600;
     position: absolute;
     right: 40px;
     bottom: 110px;
-
 }
 .footer-form-1
 {
@@ -556,7 +563,6 @@ font-weight: 600;
 .footer-form-2, .footer-form-3, .footer-form-4
 {
     display: flex;
-
 }
 .input-5
 {
@@ -590,9 +596,8 @@ font-weight: 600;
     background-color:rgb(20, 129, 133) ;
     padding: 30px 00;
     text-align: center;
-
 }
 .h10{
-    font-size: 15px;
+    font-size: 12px;
     color: white;
 }
